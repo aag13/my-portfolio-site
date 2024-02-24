@@ -1,0 +1,5 @@
+streamlit
+requests
+streamlit_js_eval
+watchdog
+# streamlit-elements==0.1.*
