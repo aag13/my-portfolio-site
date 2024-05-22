@@ -10,6 +10,7 @@ utils.set_page_header("💎 Projects 💎")
 
 default_page_expand = False
 
+
 with st.expander("**Crawling of Bidding and RFP Sites**", expanded=default_page_expand):
     st.markdown(f"""
     Architected a generic crawler where hundreds of bidding sites from dozens of states in the USA are crawled daily to 
@@ -27,8 +28,7 @@ with st.expander("**Crawling of Bidding and RFP Sites**", expanded=default_page_
     **Project**: https://www.bidadvisor.xyz/client/home
     """)
 
-with st.expander("**Asynchronous Crawler-Scraper Architecture**",
-                 expanded=default_page_expand):
+with st.expander("**Asynchronous Crawler-Scraper Architecture**", expanded=default_page_expand):
     st.markdown(f"""
     This was the asynchronous version of the *Bid Crawler* that reduced the crawling time by more than 85% by introducing 
     asynchronous processing at three nested levels, namely the site-level, page-level, and individual bid-level.
@@ -41,7 +41,6 @@ with st.expander("**Asynchronous Crawler-Scraper Architecture**",
     """)
 
     st.image("assets/crawler-architecture.jpg", caption="Crawler Architecture", use_column_width=True)
-
 
 with st.expander("**Crawling, Scraping, Data Mining**", expanded=default_page_expand):
     st.markdown("""
@@ -73,7 +72,19 @@ with st.expander("**PayPal Integration with AWS**", expanded=default_page_expand
     **Project**: https://www.coderstrust.net/
     """)
 
-with st.expander("**confiGOAT (Python Package)**", expanded=default_page_expand):
+with st.expander("**Amazon OpenSearch Knowledge Base**", expanded=default_page_expand):
+    st.markdown("""
+    Designed a knowledge base using Amazon OpenSearch, Lambda, and API Gateway on AWS. 
+    The frontend is created using Streamlit framework.
+
+    **Tech**: Python, Streamlit, Amazon OpenSearch, Lambda, API Gateway.
+
+    **Project**:
+    - https://opensearch-knowledge-base.streamlit.app/ 
+    - https://github.com/aag13/streamlit-knowledge-base
+    """)
+
+with st.expander("**confiGOAT (Python package for advanced configuration management)**", expanded=default_page_expand):
     st.markdown("""
     **[confiGOAT](https://pypi.org/project/configoat/)** is a powerful, flexible, and developer-friendly management tool 
     for all your environment variables and configurations.
@@ -115,7 +126,7 @@ with st.expander("**Solar Panel Detection from Satellite Images**", expanded=def
     **Tech**: Python, PyTorch, Google Maps
     """)
 
-with st.expander("**RabindraNet**", expanded=default_page_expand):
+with st.expander("**RabindraNet (Text generation in the styles of Rabindranath Tagore)**", expanded=default_page_expand):
     st.markdown("""
     Creating Literary Works in the Style of Rabindranath Tagore: A character level RNN model with
     stacked-LSTM layers trained on the works of Rabindranath Tagore to produce literary works in his style for multiple genres.
@@ -125,7 +136,7 @@ with st.expander("**RabindraNet**", expanded=default_page_expand):
     **Source**: https://arxiv.org/pdf/2202.00481.pdf
     """)
 
-with st.expander("**shop-A-shop**", expanded=default_page_expand):
+with st.expander("**shop-A-shop (Online marketplace mobile app)**", expanded=default_page_expand):
     st.markdown("""
     An online marketplace to buy, sell, manage, and communicate all in one designed to support small and medium
     entrepreneurs during Covid.
@@ -133,6 +144,29 @@ with st.expander("**shop-A-shop**", expanded=default_page_expand):
     **Tech**: Flutter, Firebase
 
     **Source**: https://play.google.com/store/apps/details?id=com.auvenora.shopashop&hl=en
+    """)
+
+with st.expander("**Frontend Applications (Polymer, VueJS, Streamlit)**", expanded=default_page_expand):
+    st.markdown("""
+    With a wealth of experience in full-stack web development, I specialize in both frontend and backend technologies, 
+    particularly within the JavaScript ecosystem.
+    - **Healthcare Applications**: Worked on several healthcare applications that deliver sensitive, mission-critical 
+    services to doctors, patients, and hospital staff. These applications ensure seamless and secure interactions within 
+    the healthcare environment.
+    - **ICU Patient Care**: Created a sophisticated search and filter mechanism tailored for ICU patients
+    - **Codersmyth.com**: Designed an engaging single-page landing site for Codersmyth.com, showcasing a responsive user 
+    interface that captures visitors' attention and drives engagement.
+    - **Microfinance Solutions**: Worked on Vue.js applications with a Django backend, delivering user-friendly solutions 
+    tailored for the microfinance domain.
+    
+    **Tech**: Javascript, Polymer, VueJS, Express.
+
+    **Project**: 
+    - https://doctor.bdemr.com/
+    - https://clinic.bdemr.com/
+    - https://patient.bdemr.com
+    - https://www.codersmyth.com/
+    - https://github.com/aag13/single-page-landing-site
     """)
 
 with st.expander("**Data Structure Visualization Application**", expanded=default_page_expand):
@@ -144,7 +178,7 @@ with st.expander("**Data Structure Visualization Application**", expanded=defaul
     **Source**: https://github.com/aag13/visualization-application
     """)
 
-with st.expander("**agroSoft**", expanded=default_page_expand):
+with st.expander("**agroSoft (Crop management and prediction platform)**", expanded=default_page_expand):
     st.markdown("""
     An agricultural management application with primary focus on crop prediction.
 
