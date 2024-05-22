@@ -24,14 +24,14 @@ with col2:
 
 with st.expander("Libraries & Frameworks 💻", expanded=True):
     st.markdown("""
-    Django, NodeJS, Streamlit, Airflow, PyTorch, TensorFlow, OpenAI, Scikit-learn, NLTK, Pandas, Seaborn, SpaCy, LangChain, 
-    Pydantic, Scrapy, Flutter, Swing Widget Toolkit, Polymer
+    Django, NodeJS, BeautifulSoup, Scrapy, Selenium, Flutter, Streamlit, Airflow, PyTorch, TensorFlow, NumPy, Scikit-learn, NLTK, 
+    Pandas, Seaborn, SpaCy, LangChain, Pydantic, Swing Widget Toolkit, Polymer
     """)
 
 with st.expander("Tools & Platforms ⚙️", expanded=True):
     st.markdown("""
-    AWS *(API Gateway, API Gateway Proxy, Lambda, Cloudwatch, OpenSearch, SAM, SQS, SNS, Cognito, IAM, S3, SES, 
+    **AWS** *(API Gateway, API Gateway Proxy, Lambda, Cloudwatch, OpenSearch, SAM, SQS, SNS, Cognito, IAM, S3, SES, 
     Pinpoint, Chime, VPC, KMS, ACM, Event Bridge, Nested Stack, Lambda Layers, EFS, Textract, ECR, 
     AppConfig, CodeBuild, CodeCommit, CodeDeploy, CodePipeline, Fargate, CloudFront, Glue, Lake Formation, and others)*, 
-    Elasticsearch, Git, Jupyter Notebook, ActiveMQ, Jenkins, Docker, OpenAPI, Tableau
+    Elasticsearch, Git, Jupyter Notebook, Celery, ActiveMQ, Jenkins, Docker, OpenAI, Tableau, Google Map
     """)

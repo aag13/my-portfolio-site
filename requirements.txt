@@ -1,5 +1,6 @@
 streamlit
 requests
 streamlit_js_eval
-watchdog
+# watchdog
+# streamlit-card
 # streamlit-elements==0.1.*

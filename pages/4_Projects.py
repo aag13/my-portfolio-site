@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+from pathlib import Path
 import streamlit as st
 import requests
 import utils
@@ -8,6 +9,69 @@ utils.initialize_page_config("Asadullah Al Galib - Portfolio")
 utils.set_page_header("💎 Projects 💎")
 
 default_page_expand = False
+
+with st.expander("**Crawling of Bidding and RFP Sites**", expanded=default_page_expand):
+    st.markdown(f"""
+    Architected a generic crawler where hundreds of bidding sites from dozens of states in the USA are crawled daily to 
+    extract structured and formatted bids/RFPs, from each site.
+    - The key part of the crawler is its ability to handle hundreds of sites with completely different structures and content layouts.
+    - Created an orchestrator to initiate daily crawling and manage all the sites by ensuring proper logging and error handling.
+    - Log archives and supplementary documents for each bid were stored in Amazon S3.
+    - Amazon Eventbridge rules were used to trigger crawling jobs daily at a specific time.
+    - Amazon Opensearch was used as the primary storage of formatted bidding items and to provide full-text search functionalities.
+    - Thousands of bids from hundreds of sites were put into Amazon SQS message queues for efficient processing of documents.
+    - The project was hosted on and run with AWS Fargate.
+    
+    **Tech**: Python, Requests, BeautifulSoup, Amazon S3, Eventbridge, Opensearch, SQS, AWS Fargate.
+
+    **Project**: https://www.bidadvisor.xyz/client/home
+    """)
+
+with st.expander("**Asynchronous Crawler-Scraper Architecture**",
+                 expanded=default_page_expand):
+    st.markdown(f"""
+    This was the asynchronous version of the *Bid Crawler* that reduced the crawling time by more than 85% by introducing 
+    asynchronous processing at three nested levels, namely the site-level, page-level, and individual bid-level.
+    - Asynchronous orchestrator initiated the crawling for each site using event loop.
+    - Amazon DynamoDB was used for storing management and tracking logs for each bid. These documents were used to 
+    re-crawl or skip sites or pages based on some predefined heuristics.
+    - AsyncIO and AIOHTTP were used for asynchronous API calls.
+    
+    **Tech**: Python, Requests, BeautifulSoup, Amazon DynamoDB, AsyncIO, AIOHTTP.
+    """)
+
+    st.image("assets/crawler-architecture.jpg", caption="Crawler Architecture", use_column_width=True)
+
+
+with st.expander("**Crawling, Scraping, Data Mining**", expanded=default_page_expand):
+    st.markdown("""
+    Expertise in the field of crawling and scraping data from a large number of sites on the internet. Experienced with 
+    various rate-limiting and paywall prevention techniques.
+    - Crawled and scraped market information from Dhaka Stock Exchange for hundreds of companies to create a dataset to 
+    be used in time-series analysis of stock prices.
+    - Crawled official sites to compose collection of literary works from multiple classical Bengali writers to be used 
+    in literary analysis and NLP projects. Created complex parsing and extraction rules in order to generate entire 
+    collection of a writer’s literary works.
+    - Created a scraping module to collect article metadata from *The New York Times* API for a research group on media bias
+    analysis.
+    
+    **Tech**: Python, Requests, BeautifulSoup, Scrapy, BeautifulSoup, Selenium.
+
+    **Project**: 
+    - https://www.kaggle.com/aagalib/datasets
+    - https://www.dsebd.org/company_listing.php
+    - 
+    """)
+
+with st.expander("**PayPal Integration with AWS**", expanded=default_page_expand):
+    st.markdown("""
+    Integrated the Paypal payment system with backend cloud applications running on AWS using webhooks to 
+    support online content purchases for thousands of customers in a large-scale application. 
+
+    **Tech**: Python, AWS, PayPal API.
+
+    **Project**: https://www.coderstrust.net/
+    """)
 
 with st.expander("**confiGOAT (Python Package)**", expanded=default_page_expand):
     st.markdown("""
