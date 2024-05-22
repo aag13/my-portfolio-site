@@ -36,9 +36,9 @@ with st.expander(
         "Genre Classification: A Machine Learning Based Comparative Study of Classical Bengali Literature *(ICCIT, 2023)*",
         expanded=default_page_expand):
     st.markdown("""
-    *This paper was presented at the 26th International Conference on Computer and Information Technology, ICCIT 2023. (pending publication)*
+    *This paper was presented at the 26th International Conference on Computer and Information Technology, ICCIT 2023*
 
-    **Link**: https://github.com/aag13/cse713/tree/main/submission6
+    **Link**: https://doi.org/10.1109/ICCIT60459.2023.10441603
 
     **Tech**: Python, Scikit-learn, Seaborn, TensorFlow
     """)
