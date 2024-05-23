@@ -32,7 +32,7 @@ with st.expander("**Asynchronous Crawler-Scraper Architecture**", expanded=defau
     st.markdown(f"""
     This was the asynchronous version of the *Bid Crawler* that reduced the crawling time by more than 85% by introducing 
     asynchronous processing at three nested levels, namely the site-level, page-level, and individual bid-level.
-    - Asynchronous orchestrator initiated the crawling for each site using event loop.
+    - Asynchronous orchestrator was used to initiate the crawling for each site using event loop.
     - Amazon DynamoDB was used for storing management and tracking logs for each bid. These documents were used to 
     re-crawl or skip sites or pages based on some predefined heuristics.
     - AsyncIO and AIOHTTP were used for asynchronous API calls.
@@ -59,7 +59,6 @@ with st.expander("**Crawling, Scraping, Data Mining**", expanded=default_page_ex
     **Project**: 
     - https://www.kaggle.com/aagalib/datasets
     - https://www.dsebd.org/company_listing.php
-    - 
     """)
 
 with st.expander("**PayPal Integration with AWS**", expanded=default_page_expand):
@@ -75,7 +74,7 @@ with st.expander("**PayPal Integration with AWS**", expanded=default_page_expand
 with st.expander("**Amazon OpenSearch Knowledge Base**", expanded=default_page_expand):
     st.markdown("""
     Designed a knowledge base using Amazon OpenSearch, Lambda, and API Gateway on AWS. 
-    The frontend is created using Streamlit framework.
+    The frontend was created using Streamlit framework.
 
     **Tech**: Python, Streamlit, Amazon OpenSearch, Lambda, API Gateway.
 
