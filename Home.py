@@ -14,12 +14,12 @@ with st.expander("Bio 📖", expanded=default_page_expand):
     st.markdown("""
     I am **Asadullah Al Galib**, a backend developer with over 5 years of experience, specializing in AWS and Data Engineering. 📓
     
-    I started my career as a Full Stack developer working with NodeJS and PolymerJS (I know 👀). Over the years, I got my feet wet 
-    with Python web frameworks, large-scale web crawling, and various machine learning and data science projects. I have worked on 
-    many serverless and server-based backend applications. I have designed large-scale applications from scratch as well as 
+    I started my career as a Full Stack developer working with NodeJS and PolymerJS (I know 👀). Over the years, I have gained expertise in 
+    AWS, serverless applications, Python web frameworks, large-scale web crawling, and various machine learning and data science projects. 
+    I have worked on many serverless and server-based backend applications. I have designed large-scale applications from scratch as well as 
     refactored complex systems to increase efficiency and make them more performant. 🚀
     
-    Solving problems with simple, well-designed and effective solutions that have real-world impacts on people's lives 
+    Solving problems with simple, well-designed, and effective solutions that have real-world impacts on people's lives 
     is what motivates me and keeps me going. 🧭
     
     ---

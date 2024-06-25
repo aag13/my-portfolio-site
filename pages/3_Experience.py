@@ -14,11 +14,23 @@ with st.expander("**Software Engineer** at *BRAC IT*", expanded=default_page_exp
     *(January 2023 - Current)*
     
     **What I did**:
-    - **Micro-Finance Field Applications**: Worked on the back-end application supporting multiple micro-finance field
-    applications across different African countries. The core application is written in Django.
-    - **Back-end Optimization**: Worked on code refactoring and optimization tasks to increase efficiency and response time.
-    - **Knowledge Base**: Used ElasticSearch to design an internal knowledge base to aggregate and provide reference to root
-    cause analysis reports.
+    - **Product Roll-Out**: Led the implementation and deployment of a major product roll-out for the Rwanda Microfinance 
+    project in 20% less time than the original estimation.
+    - **Python Package**: Designed an advanced configuration management library in Python to manage project-wide configurations 
+    that increased deployment time by 70%.
+    - **API Optimization**: Optimized core APIs to cut down response time by 50%, significantly improving mobile application syncing time.
+    - **VueJS Enhancement**: Introduced a nested value propagation mechanism based on triggers in existing VueJS app to 
+    reduce implementation time by 1 man week.
+    - **Knowledge Base**: Proposed and initiated a OpenSearch-powered knowledge base to facilitate new-joiner on-boarding and internal 
+    certification attainment tool, reduced system setup time by 80% during onboarding.
+    - **Monitoring & Alerting**: Designed a custom monitoring and alerting script for on-premise production instance 
+    after a critical system failure preventing at least 5 similar incidents.
+    - **Web Application Security**: Enhanced web application security by introducing CSRF tokens in 50+ Ajax calls inside Django forms.
+    - **Security audit**: Audited primary web applications for security vulnerabilities and upgraded all jQuery libraries 
+    throughout 3 different country projects.
+    - **Debugging**: Identified critical firewall issues for web applications hosted via AWS ELB to resume operation on 
+    production instance within 1 hour.
+    - **RnD**: Conducted RnD on ELK stacks for log monitoring, load testing for performance benchmarking.
     """)
 
 with st.expander("**Lead Solutions Engineer** at *Shadhin Lab LLC*", expanded=default_page_expand):
@@ -27,15 +39,20 @@ with st.expander("**Lead Solutions Engineer** at *Shadhin Lab LLC*", expanded=de
     
     **What I did**:
     
-    - **Cloud Educational Platform**: Developed a full-fledged educational & training platform [CodersTrust](https://coderstrust.net/) serving 10k+
-    learners using a suite of AWS services and Python as the runtime language.
-    - **ML and Data Team**: Managed a team of Data Engineers to carry out various data pipeline and analytical tasks for
-    in-house and client applications. Created a dataset of 6k+ processed bids from USA. Designed a bid classification model
+    - **Cloud Educational Platform**: Led the design of a nested-stack-based backend AWS serverless application for a 
+    MOOC platform in Bangladesh (coderstrust.net), serving over 10k+ students.
+    - **OpenSearch Bid search**: Created a data pipeline and full-text search engine using OpenSearch for thousands of processed bids/RFPs.
+    - **Data Analysis**: Analyzed students’ course purchase data using Pandas, Seaborn, Plotly, and Altair to extract 
+    actionable insights that increased engagement by 10%.
+    - **Data Migration Script**: Created extensive data migration and processing scripts to reduce processing time by 8 
+    hours with previous manual processing.
+    - **ML and Data Team**: Managed a team of Data Engineers to carry out various data pipeline and analytical tasks for 
+    in-house and client applications. Created a dataset of 6k+ processed bids from USA. Designed a bid classification model 
     to automate the entire post-processing of bids.
-    - **Crawling & Extraction Engine**: Created an asynchronous crawler engine that can handle multitude of bidding sites
-    with unlimited variations as well as integration with various AWS services such as DynamoDB, Amazon OpenSearch,
+    - **Crawling & Extraction Engine**: Created an asynchronous crawler engine that can handle multitude of bidding sites 
+    with unlimited variations as well as integration with various AWS services such as DynamoDB, Amazon OpenSearch, 
     Amazon S3 etc. using Python & Beautiful Soup. Increased runtime efficiency by 94%.
-    - **Bid Advisor Backend**: Developed the backend of [Bid Advisor](https://bidadvisor.xyz) platform to support the API needs from client and
+    - **Bid Advisor Backend**: Developed the backend of a bid advisor platform to support the API needs from client and 
     admin applications as well as integration with the crawling module.
     """)
 

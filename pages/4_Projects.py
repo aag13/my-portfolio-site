@@ -23,7 +23,7 @@ with st.expander("**Crawling of Bidding and RFP Sites**", expanded=default_page_
     - Thousands of bids from hundreds of sites were put into Amazon SQS message queues for efficient processing of documents.
     - The project was hosted on and run with AWS Fargate.
     
-    **Tech**: Python, Requests, BeautifulSoup, Amazon S3, Eventbridge, Opensearch, SQS, AWS Fargate.
+    **Tech**: Python, Requests, BeautifulSoup, Amazon S3, Eventbridge, Amazon OpenSearch, SQS, AWS Fargate.
 
     **Project**: https://www.bidadvisor.xyz/client/home
     """)

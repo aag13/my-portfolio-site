@@ -33,5 +33,5 @@ with st.expander("Tools & Platforms ⚙️", expanded=True):
     **AWS** *(API Gateway, API Gateway Proxy, Lambda, Cloudwatch, OpenSearch, SAM, SQS, SNS, Cognito, IAM, S3, SES, 
     Pinpoint, Chime, VPC, KMS, ACM, Event Bridge, Nested Stack, Lambda Layers, EFS, Textract, ECR, 
     AppConfig, CodeBuild, CodeCommit, CodeDeploy, CodePipeline, Fargate, CloudFront, Glue, Lake Formation, and others)*, 
-    Elasticsearch, Git, Jupyter Notebook, Celery, ActiveMQ, Jenkins, Docker, OpenAI, Tableau, Google Map
+    Elasticsearch, ELK Stack, Grafana, Git, Jupyter Notebook, Celery, ActiveMQ, Jenkins, Docker, OpenAI, Tableau, Google Map
     """)
